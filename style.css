@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "poppins";
+    font-weight: 300;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    background: black;
+    flex-direction: column;
+}
+
+#page2 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+
+#page3 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    flex-direction: column;
+
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    height: 80%;
+    width: 20%;
+    object-fit: cover;
+
+}
